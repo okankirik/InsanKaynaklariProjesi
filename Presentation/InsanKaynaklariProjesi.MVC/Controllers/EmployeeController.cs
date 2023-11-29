@@ -25,10 +25,6 @@ public class EmployeeController : Controller
         var value = await _getEmployeeByIdQueryHandler.Handle(new Application.Features.Queries.EmployeeQueries.GetEmployeeByIdQuery(id));
         return Ok(value);
     }
-    
-    
-
-
-
+    //Bu bir denemedir.
     
 }
